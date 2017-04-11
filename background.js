@@ -6,7 +6,7 @@
 
 // Create imgur link in context menu (right click menu)
 var id = chrome.contextMenus.create({
-    "title": "View User's Albums",
+    "title": "View User's Albums Privately",
     "onclick": genericOnClick,
     documentUrlPatterns: [
         "*://imgur.com/gallery*"
