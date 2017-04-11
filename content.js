@@ -2,6 +2,8 @@
  * content.js can access dom elements and manipulate them whereas background.js cannot.
  * 
  * As such, content.js is able to get the username with jquery without any highlighting needed.
+ * 
+ * @author Thomas Ortiz
  */
 
 

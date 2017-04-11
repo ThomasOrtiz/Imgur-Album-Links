@@ -2,6 +2,8 @@
  * background.js can't access dom elements but it does have access to the chrome variable.
  * 
  * This allows it to create a new chrome window.
+ * 
+ * @author Thomas Ortiz
  */
 
 // Create imgur link in context menu (right click menu)
