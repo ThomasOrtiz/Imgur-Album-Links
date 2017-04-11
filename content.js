@@ -22,7 +22,7 @@ $(function () {
 var generateAlbumSpan = function(){
     var username = getUserName();
     $("#albumSpan").remove();
-    $("div.post-title-meta.font-opensans-semibold").append("<span id='albumSpan'><a href='http://imgur.com/user/" + username + "'>Albums</a></span>");
+    $("div.post-title-meta.font-opensans-semibold").append("<span id='albumSpan'><a href='http://" + username + ".imgur.com'>Albums</a></span>");
 }
 
 /**
