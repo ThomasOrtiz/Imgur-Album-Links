@@ -9,7 +9,11 @@
     "contextMenus", 
     "tabs"],
   "icons": {
-    "16": "assets/imgur.png"
+    "16": "assets/imgur-16.png",
+    "32": "assets/imgur-32.png",
+    "48": "assets/imgur-48.png",
+    "64": "assets/imgur-64.png",
+    "128": "assets/imgur-128.png"
   },
   "content_scripts": [ {
     "matches": ["*://imgur.com/*", "*://*.imgur.com/*"],
