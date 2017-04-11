@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Imgur Album Quick Link",
+  "short_name": "Search",
+  "description": "Quickly load Imgur Album in a new incognito window",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/imgur.png"
+  },
+  "content_scripts": [ {
+    "matches": ["*://imgur.com/*", "*://*.imgur.com/*"],
+    "js": ["jquery-3.2.0.min.js", "content.js"]
+  }],
+  "background": {
+    "matches": ["*://imgur.com/*", "*://*.imgur.com/*"],
+    "scripts": ["jquery-3.2.0.min.js", "background.js"],
+    "all_frames": true
+	}
+}
+
+
