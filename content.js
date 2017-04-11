@@ -83,4 +83,11 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
             response: username
         });
     }
+
+    if (message.functiontoInvoke == "getUserNameFromUrl"){
+        var username = getUserNameFromUrls();
+        sendResponse({
+            response: username
+        });
+    }
 });
