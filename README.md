@@ -1,7 +1,9 @@
-# Imgur Album Quick Link
-A quick album viewer that opens in new incognito window
+# Imgur - Album Links
 
-## Download and Install:
+## Install Through Google Store :
+[Google App Store](https://chrome.google.com/webstore/detail/imgur-album-links/ipfbdfnhlhkmhebffcbnbcgimpodlgep)
+
+## Directly Download and Install :
 
 1. Click on "Clone or Download" in Github and download the ZIP file.
 
@@ -13,6 +15,6 @@ A quick album viewer that opens in new incognito window
 
 5. Click "Load unpacked extension" and choose the folder you unzipped to in step 2.
 
-6. Once loaded, check the "Allow incognito" under "Imgur Album Quick Link"
+6. Once loaded, check the "Allow incognito" under the extension
 
-Now, whenever you visit a page on imgur, you can right click and click "View Imgur Albums!".
+Now, whenever you visit a page on imgur, you can right click and click "View User's Albums Privately!".
